@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema Tecnografit</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="js/funcoes.js"></script>
+
+</head>
+<!-- <body onload="carregarTotalEstoque('totalEstoque')">
+    // Carrinho de compras
+    <div class="carrinho">
+        <img src="img/carrinhoCompras.png">
+        <p>Itens no estoque: <span id="totalEstoque">0</span></p>
+    </div>
+     -->
+    <!--Formulário: Nome, código e quantidade de produtos-->
+    <form>
+        <table id="edit">
+            <caption>Atualização de Estoque</caption>
+            <!--Nome do produto-->
+
+            <tr>
+                <td class="alinharRotulos">Espessura Placa:</td>
+                <td><input id="txtEspessuraPlaca" type="text"></td>
+            </tr>
+            <!--Quantidade do produto-->
+            <tr>
+                <td class="alinharRotulos">Quantidade de Placas:</td>
+                <td>
+                    <input type="number" name="qtde" id="qtde">
+                    
+                </td>
+            </tr>
+            <!--Botoes-->
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="button" value="Cadastrar" class="alinhaBtns" onclick="validarProduto('txtEspessuraPlaca','qtde')">
+                    <input type="button" value="Ver estoque" class="alinhaBtns" onclick="window.open('/js/estoque.html','_self')">
+                    <input type="reset" value="Limpar" class="alinhaBtns">
+                </td>
+            </tr>
+        </table>
+    </form>
+    <h1 id="title">Controle de Estoque</h1>
+    <table style="width: 100%;" id="est">
+        <thead>
+            <tr>
+                <th id="est">Espessura</th>
+                <th id="est">Quantidade</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td id="est">5</td>
+                <td id="senk"></td>
+            </tr>
+            <tr>
+                <td id="est">6</td>
+                <td id="siz"></td>
+            </tr>
+            <tr>
+                <td id="est">7</td>
+                <td id="sét"></td>
+            </tr>
+            <tr>
+                <td id="est">8</td>
+                <td id="uit"></td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td id="est">10</td>
+                <td id="diz"></td>
+            </tr>
+        </tfoot>
+    </table>
+    <script>
+        
+    </script>
+</body>
+</html>

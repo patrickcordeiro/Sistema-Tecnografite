@@ -1,0 +1,97 @@
+body{
+    background-image: url(bg.gif);
+    
+}
+
+h1{
+    font-family: 'Bebas Neue', cursive;
+    font-style: italic;
+    font-size: 50px;
+    text-shadow: 0.1em 0.1em 0.2em black;
+    color: #101269;
+    text-align: center;
+    border: solid black;
+    border-radius: 50px;
+    background-color: white;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+section{
+    text-align: center;
+    width: 500px;
+    background-color: white;
+    padding: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn:focus, .btn::-moz-focus-inner{
+    outline: none;
+    border: none;
+}
+
+.btn{
+    font-family: arial;
+    font-size: 14px;
+    font-weight: 700;
+    border:none;
+    width:30%;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    border:none;
+    padding:30px;
+    display: inline-block;
+    border-radius: 20px;
+}
+
+.btn-blue{
+    background-color: #101269;
+    box-shadow:0 5px 0 black;
+}
+
+.btn-blue:hover{
+    background: #0D4B8D;
+    box-shadow: black;
+}
+
+.btn-blue:active{
+    position: relative;
+    top: 5px;
+    box-shadow: none;
+}
+
+ div#calculadora {
+    margin-top: 10px;
+    margin-bottom: 20px;
+} 
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+div#estoque {
+    margin: auto;
+}
+
+div#edit {
+    margin: auto;
+    
+    
+    
+    
+}
+/* footer{
+    position: absolute;
+    width: 100%;
+    background-color: gray;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    bottom: 0;
+
+} */

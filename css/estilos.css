@@ -1,0 +1,63 @@
+.alinharRotulos {
+    text-align: right;
+}
+.alinhaBtns {
+    width:30%;
+    background-color: black;
+    color:white;
+    border:0px;
+    padding:5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.carrinho {
+    width:300px; 
+    float:right;
+}
+.carrinho p {
+    display: inline;
+}
+table#edit {
+    clear:both; 
+    background-color: rgb(213,97,100);
+    border-radius: 10px; 
+    color:white;
+    padding:10px;
+    width:400px;
+    margin:auto;
+}
+caption {
+    color:rgb(213,97,100); 
+    font-weight: bold; 
+    font-size: 25px;
+}
+h1#title{
+    text-align: center;
+    color: rgb(21, 52, 87);
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 50px;
+}
+#est{
+    border: 1px solid black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#senk{
+    border: 1px solid black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#siz{
+    border: 1px solid black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#sét{
+    border: 1px solid black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#uit{
+    border: 1px solid black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#diz{
+    border: 1px solid black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
