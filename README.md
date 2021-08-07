@@ -1,2 +1,2 @@
 # Sistema Tecnografite
- Sistema de controle de estoque e cáculo para produção de peças
+ Sistema de controle de estoque e cálculo para produção de peças
